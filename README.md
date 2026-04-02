@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@0.400.0/dist/umd/lucide.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
         .bg-corporate-dark { background-color: #0F172A; }
@@ -167,10 +168,12 @@
         <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
             <span class="font-bold text-white">COIN CARRIÈRE</span>
             <p>&copy; 2026 Coin Carrière. Tous droits réservés.</p>
+        </div>
+    </footer>
 
+    <script>
+        lucide.createIcons();
+    </script>
 
-        <div class="absolute inset-0 bg-corporate-deeper/90"></div>
-        
-        <div class="relative max-w-5xl mx-auto
 
     
